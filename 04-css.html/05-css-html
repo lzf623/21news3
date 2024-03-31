@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML常用元素练习</title>
+    <style>
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h2{font-family: "ma shan zheng";
+    }
+      .eng{
+        font-family: Adobegothicstd;
+      }  
+
+      h1 a:visited{color:red ;
+    }
+    a:link{
+        color: brown;
+    }
+    a:visited{
+        color: black;
+    }
+    #location{
+        font-family: serif;
+    }
+    </style>
+</head>
+<body>
+    <h1>HTML常用元素练习</h1>
+    <p>
+        <a href="http://www.zxuew.cn/daodejing_1/">道可道</a>，非常道；名可名，非常名。无，名天地之始；有，名万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门
+    </p>
+    <p>
+        <img src="https://jingyan.baidu.com/article/3065b3b6a2f98cffcff8a4d7.html" alt=""/>
+    </p>
+    <ol>
+        <li>大一</li>
+        <li>大二</li>
+        <li>大三</li>
+    </ol>
+    <h2 class="eng">/douban book+</h2> 
+    <h2>好读书，而求甚解</h2>
+
+    <P>发现好书靠豆瓣，阅读好书靠Douban+</P>
+    <h2 id="location">地点</h2>
+    <p>
+        道可道，非常道；名可名，非常名。无，名天地之始；有，名万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门  
+    </p>
+
+</body>
+</html>
