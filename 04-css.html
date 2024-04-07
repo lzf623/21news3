@@ -5,18 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS 盒模型、背景、文字排版</title>
     <style>
-        div {
-            width: 200px;
-            height: 200px;
-            margin-top: 100px;
-            margin-left: auto ;
-            
-        }
+        body {
+            width: 57px;
+            margin:0 auto ;
+            padding: 0;
+ }
+ div{
+  background-image: linear-gradient(90deg,#e66465,#9198e5);
+width: 200px;
+height: 200px;
+margin-top: 100px;
+margin-bottom: 4em;
+margin-left: auto;
+margin-right: auto;
+
+
+border: dashed 1px rgb(224, 32, 32);
+padding: 20px;
+border-radius: 10px 20px;
+box-shadow: 3px 3px 10px #ccc;
+ }
+ div p{
+  margin: 0;
+  line-height: 200px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  color: #4b4b4b;
+  font-family: "bernard MT";
+ }
+ .text{
+  text-indent: 2em;
+  line-height: 1.7;
+  font-family: "宋体";
+  font-size: 32px;
+  font-weight: 300;
+  text-align: justify;
+  letter-spacing: 1px;
+ }
+ span{
+  text-decoration: green wavy underline;
+  background-color: #e7e7d0;
+ }
     </style>
 </head>
 <body>
   <div>
     <P>2023</P>
   </div>  
+  <P class="text">
+    道可道，非常道；<span>名可名，非常名</span>。无，名天地之始；
+    有，名万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者，同出而异名，同谓之玄。玄之又玄，众妙之门。
+<P>
+  </P>
 </body>
 </html>
