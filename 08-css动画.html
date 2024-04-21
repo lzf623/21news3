@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS动画</title>
+</head>
+    <style>
+        @keyframes bounce {
+  0%, 100% { transform: translateY(0); } /* 开始和结束时位置不变 */
+  50% { transform: translateY(-30px); } /* 中间时向上移动30px */
+}
+@keyframes gradient {
+  0% { background-color: red; }
+  100% { background-color: blue; }
+}
+
+body {
+  animation-name: gradient;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(115, 196, 93);
+  border-radius: 50%; /* 圆形 */
+  animation-name: bounce; /* 指定动画名称 */
+  animation-duration: 1s; /* 动画持续时间为1秒 */
+  animation-iteration-count: infinite; /* 动画无限次循环 */
+}
+    </style>
+    <body>
+        <div class="ball"></div>
+    </body>
+    <p>
+    用关键帧动画来制作一个弹跳的小球
+    </p>
+    
+</html>
