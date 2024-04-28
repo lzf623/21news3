@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS基础知识</title>
+</head>
+<body>
+    <script>
+    // alert("这是来自js脚本的❤");
+    // 变量的定义，变量使用let或者var定义
+    let age = 13;
+    console.log(age);
+    //  变量的类型：最核心的变量类型为数字、字符串，基于这两种类型，衍生出更复杂的变量类型
+    let name ="小丽";
+    console.log(name);
+    // 可通过typeof查看变量的类型
+    console.log(typeof name,name,typeof age,age);
+    // 布尔类型 0 1 false true
+    let status  = false;
+    console.log(status,typeof status);
+    // 类型的转换、使用String、Boolean、Number函数进行转换
+    console.log(age,typeof age,String(age),typeof String);
+
+    // 基础运算符中的加号
+    age = age + 2;
+    console.log(age);
+    // 字符串也可以使用加号进行拼接
+    console.log(name + "今年" + age + "岁。");
+    // 使用反引号及${}进行字符串内容的拼接
+    console.log(`${name}今年${age}岁`);
+    // 相等（值相等）和绝对相等（值和类型相同）
+    console.log(2=="2");
+    console.log(2==="2");
+    // 流程控制-条件
+    let today ="星期四";
+    if (today=="星期四") {
+        console.log("听说星期天补星期四的课");
+        
+    }else{
+        console.log("只要是课，统统给我补回来！");
+
+    }
+    name="小胖";
+    if (name=="大壮") {
+    console.log("天生丽质难自弃")     
+    }else if(name=="小胖"){
+        console.log("天生舔狗");
+    }else{
+        console.log("丁克")
+    }
+    // for循环，循环要有一个终止的条件
+    // index++相当于index=index+1
+    for (let index= 0;index<10;index++){
+        console.log(index);
+    }
+    let index=9;
+    while (index<14) {
+        index++;
+        console.log(index)
+    }
+
+
+    </script>
+    
+</body>
+</html>
