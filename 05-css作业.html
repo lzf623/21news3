@@ -6,10 +6,86 @@
     <title>提示词</title>
 </head>
 <body>
+    <style>
+         h1{color: rgb(95, 193, 218);
+            text-align: center;
+
+        }
+        h2{
+            font-family: "ma shan zheng";
+    }
+      .eng{
+        font-family: Adobegothicstd;
+      }  
+
+      h1 a:visited{
+        color:red ;
+    }
+    .text{
+  text-indent: 1em;
+  line-height: 1;
+  font-family: "宋体";
+  font-size:18px;
+  font-weight: 300;
+  text-align: justify;
+  letter-spacing: 10px;
+    </style>
     <h1>如何写好提示词</h1>
     <h2>提示词写作指导</h2>
-    <p>
-        
+    <p>   
+  <h3>Principles of Prompting</h3> 
+ <h4>Principle 1 :</h4> 
+ <h5>Write clear and specific instruction</h5>
+ <H5>Tactic1:</H5>
+<li> Use delimiters </li> 
+<li> Triple quotes: """</li>
+<li>  Triple backticks: ﹉,</li>
+<li>  Triple dashes: ---, </li>
+<li>  Angle brackets:<>,</li>
+<li> XML tags: <tag></tag> </li>
+<H5>Tactic 2:</H5> 
+Ask for structured output HTML, JSON 
+<H5>Tactic 3:</H5>
+ Check whether conditions are satisfied Check assumptions required to do the task 
+<H5>Tactic 4: </H5> prompting Give successful examples of completing tasks Then ask model to perform the task
+*clear≠short 
+
+
+<h4>Principle 2 </h4>
+<h5>give the  model time to think</h5> 
+<h5>Tactic 1:</h5> Specify the steps to complete a task 
+<li> Step 1:……</li>
+<li> Step 2:……</li>
+<li> Step N:……</li>
+<h5>Tactic 2: </h5>
+Instruct the model to work out its own solution before rushing to a conclusion
+<h4>Model Limitations </h4>  
+<h5>Hallucination </h5>  
+<li> Makes statements that sound plausible but are not true </li>
+<li>  Reducing hallucinations: First find relevant information, then answer the question based on the relevant information.</li>
+
+<h4>Prompt guidelines</h4>  
+<li> Be clear and specific </li>
+<li>  Analyze why result does not give desired output.</li>
+<li> Refine the idea and the prompt </li>
+<li> Repeat</li>
+
+
+<H4>Iterative Process</H4>   
+<li> Try something</li> 
+<li> Analyze where the result does not give what you want.</li> 
+<li>  Clarify instructions, give more time to think .</li>
+<li>  Refine prompts with abatch of examples.</li>
+
+<h4>Summary</h4>  
+<h5>Principles:</h5>   
+<li> Write clear and specific </li>
+<h5>instructions </h5> 
+<li> Give the model time to "think" </li>
+<li>  Iterative prompt development </li>
+<h5>Capabilities: </h5>  Summarizing, Inferring, 
+Transforming, Expanding ,Building a chatbot
+
     </p>
 </body>
 </html>
